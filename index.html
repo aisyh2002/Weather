@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="main.css" />
+
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="location">Kuala Lumpur</h1>
+
+            <img id="icon" src="icons/01d.png" />
+            <h3 id="weather">Few Clouds</h3>
+
+            <p>Temp: <span id="temp">29</span></p>
+            <p>Humidity: <span id="humidity">100</span></p>
+            
+            <div>
+                <button onclick="getWeather('Kuala Lumpur')">Kuala Lumpur</button>
+                <button onclick="getWeather('Ipoh')">Ipoh</button>
+                <button onclick="getWeather('Pulau Pinang')">Penang</button>
+                <button onclick="getWeather('Johor')">Johor</button>
+                <button onclick="getWeather('Sabah')">Sabah</button>
+                <button onclick="getWeather('Sarawak')">Sarawak</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

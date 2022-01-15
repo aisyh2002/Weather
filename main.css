@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("image3.jpg");
+}
+img {
+    width: auto;
+    height: auto;
+}
+
+#container {
+    width: 700px;
+    height: 500px;
+    color: black;
+    font-size: 40px;
+    margin: 150px 650px;
+}
+
+button {
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    background-color: grey;
+    border-radius: 30%;
+    padding: 10px 20px;
+
+}
